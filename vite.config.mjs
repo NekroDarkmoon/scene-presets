@@ -79,7 +79,7 @@ export default () => {
       target: ['es2022'],
       terserOptions: s_COMPRESS ? { ...terserConfig(), ecma: 2022 } : void 0,
       lib: {
-        entry: './index.js',
+        entry: './index.ts',
         formats: ['es'],
         fileName: 'index'
       }

@@ -1,5 +1,7 @@
 import './scss/main.scss';
 
-Hooks.once('setup', () => {
-  console.log('Scene Preset Setup Done.');
+import PresetManager from "./PresetManager";
+
+Hooks.once('ready', () => {
+  console.log('Scene Preset Ready Done.');
 });
