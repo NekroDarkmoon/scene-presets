@@ -1,5 +1,5 @@
 {
-  "description": "A Patreon exclusive module granting early access to the system's improved compendium packs",
+  "description": "A module that allows you to save and load scene presets.",
   "license": "MIT",
   "private": true,
   "type": "module",
